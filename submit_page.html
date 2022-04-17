@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_landing_page.css">
+    <title>Sign Up</title>
+</head>
+<body>
+
+    
+    <section class="submit-section">
+        <div class="img-wrapper">
+            <img class="balance-img" src="/images/pexels-bayram-er-9632856.jpg" alt="yoga-img">
+        </div>
+        <div class="main-box">
+            <div class="submit-flex-container">
+                <div class="logo-container">
+                    <a href="index_landing_page.html"><img class="logo-901" src="/images/tech901_blue_logo.svg" alt="tech 901">
+                    </a>
+                </div>
+            <div class="form-box">
+                <h1>Life Balance begins with a decision..</h1>
+                <form action="https://formspree.io/f/xlezpovn" method="POST">
+                    <!-- firtname -->
+                    <div class="input-box">
+                        <label for="fname"><span>First Name</span>
+                            <input type="text" name="fname" id="fname" required>
+                        </label>
+                    </div>
+                    <!-- lastname -->
+                    <div class="input-box">
+                        <label for="lname"><span>Lirst Name</span>
+                            <input type="text" name="lname" id="lname" required>
+                        </label>
+                    </div>
+                    <!-- email input -->
+                    <div class="input-box">
+                        <label for="email"><span>Email</span>
+                            <input type="email" name="email" id="email" placeholder="name@domain.com">
+                        </label>
+                    </div>
+                    <!-- radio buttons for membeship choice -->
+                    <div class="input-box">
+                        <p>Choose membership:<p>
+                    </div>
+                    <div class="member-box">
+                        <input class="membership-type" type="radio" id="basic" name="membership" value="basic membership">
+                        <label class="membership-type" for="basic">Sweat Basic</label><br>
+                    </div>
+                    <div class="member-box">
+                        <input class="membership-type" type="radio" id="pro" name="membership" value="pro membership">
+                        <label class="membership-type" for="pro">Sweat Pro</label><br>
+                    </div>
+                    <div class="member-box">
+                        <input class="membership-type" type="radio" id="premium" name="membership" value="premium membership" required>
+                        <label class="membership-type" for="premium">Sweat Premium</label>
+                    </div>
+                    <!-- submit button -->
+                    <div class="input-box">
+                        <input class="submit-btn" type="submit" name="submit-button" value="Sign Up">
+                    </div>
+                    <div class="input-box">
+                        <input class="reset-btn" type="reset" name="reset-button" value="reset">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

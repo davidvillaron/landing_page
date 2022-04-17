@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Limelight&family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Inconsolata:wght@600&family=Limelight&family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Inconsolata:wght@600&family=Limelight&family=Montserrat:ital,wght@1,300&family=Prompt:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Inconsolata:wght@600&family=Limelight&family=Montserrat:ital,wght@1,300&family=Prompt:ital,wght@1,500&family=Teko:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Inconsolata:wght@600&family=Limelight&family=Montserrat:ital,wght@1,300&family=PT+Serif:ital,wght@1,400;1,700&family=Prompt:ital,wght@1,500&family=Teko:wght@700&display=swap');
+body{
+    margin: 0;
+}
+/* top navigation bar */
+.nav-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #112637;    
+}
+.nav-links-contain {
+    display: flex;
+    justify-content: space-between;
+    width: 572px;
+    color: white;
+    padding-right: 25px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.logo-901 {
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 70px;
+    width: 60px;
+}
+.nav-links-contain > a {
+    text-decoration: none;
+    color: white;
+}
+.schedule-div > a {
+    text-decoration: none;
+    color: #477e82;
+}
+a:hover {
+    color: #19507d;
+}
+/* main hero image style */
+.main-hero-banner {
+    position: relative;
+}
+
+.hero-img {
+    height: 674px;
+    width: 100%;
+    object-fit: cover;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #86CED3;
+}
+.hero-text > h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 159px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'incon', monospace;
+    color: #ffffff;
+    font-size: 40px;
+    background: #B3C360;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin-bottom: 250px;
+}
+
+.btn:hover {
+background: #112637;
+text-decoration: none;
+}
+
+/* Mid section style -->  */  /* Need to fix the gap between this section and above section */
+
+.info-container {
+    display: inline-block;
+    background-color: #112637;
+    color: white;
+    text-align: center;
+}
+.info-container > h1 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 20px 200px;
+}
+.info-container > p {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 20px 200px;
+}
+@media only screen and (max-width: 700px) {
+    section .info-container p{
+        padding: 20px;
+        width: 85%;
+        height: 100%;
+        font-size: .9em;
+    }
+}
+@media only screen and (max-width: 700px) {
+    section .info-container h1{
+        padding: 20px;
+        width: 85%;
+        height: 100%;
+        font-size: 1.1em;
+    }
+}
+
+/* 2nd hero section */
+.push-ups {
+    height: 800px;
+    width: 100%;
+}
+
+.hero-banner {
+    position: relative;
+}
+
+.push-ups {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.txt-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+}
+
+/* personal trainer image section */
+.trainer-img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* choose trainer section */
+.section-text {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #112637;
+    text-align: center;
+    padding-top: 90px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.img-wrapp1 {
+    flex: 33%;
+    height: 64.5vh;
+
+    object-fit: cover;
+}
+.img-wrapp2 {
+    flex: 33%;
+    height: 64.5vh;
+
+    object-fit: cover;
+}
+.img-wrapp3 {
+    flex: 33%;
+    height: 64.5vh;
+
+    object-fit: cover;
+}
+@media(min-width: 700px) {
+    .flex-container h6 {
+        display: none;
+    }
+}
+
+@media(max-width: 700px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+
+    }
+    .flex-container h6 {
+        font-size: 1.8em;
+        font-family: limelight;
+        font-weight: 500;
+    }
+    .trainer-names h1 {
+        display: none;
+    }
+}
+
+.trainer-names {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'montserrat', sans-serif;
+}
+
+.schedule-div {
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+    color: #477e82;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+/* footer section */
+.footer-flex-container {
+    background-color: #112637;
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+ul, li {
+    list-style-type: none;
+    margin-top: 10px;
+    padding-top: 20px;
+
+    color: lightslategray;
+    
+}
+
+.nested-location {
+    text-align: center;
+    margin-top: 50px;
+    color: lightslategray;
+}
+
+.nested-symbols {
+    text-align: center;
+    margin-top: 50px;
+    color: lightslategray;
+    padding: 20px;
+    margin: 10pxs;
+}
+
+.symbol-img {
+    height: 25px;
+    width: 25px;
+    font-size: 1em;
+    color: lightslategray;
+}
+
+/* Schedule table styling */
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+}
+
+.schedule-date {
+    text-align: center;
+    padding: 30px;
+    color: #477e82;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+.schedule-table {
+    min-width: 500px;
+    border-collapse: collapse;
+    font-size: 1.2em;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.schedule-table thead tr{
+    background-color: #112637;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.schedule-table tbody tr .sun{
+    color: #26271c;
+    background-color: #d9e77a;
+    font-family: 'montserrat', sans-serif;
+}
+
+.schedule-table tbody tr .moon{
+    color: #e7e7e4;
+    background-color: #4b4c47;
+    font-family: 'montserrat', sans-serif;
+} 
+
+.moon {
+    background-image: url(/images/Icon\ metro-moon.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 35px 25px;
+    color: #e7e7e4;
+}
+
+.sun {
+    background-image: url(/images/Icon\ awesome-sun.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 35px 25px;
+}
+
+/* begin styling membership.html */
+
+.body-background{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #112637;
+}
+
+.membership-flex-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.membership-box {
+    background-color: aliceblue;
+    height: 470px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    line-height: 2;
+    color: #477e82;
+}
+.membership-h1 {
+    text-align: center;
+    font: bolder;
+    font-family: 'exo 2', sans-serif;
+    font-size: 4.5rem;
+    color: white
+}
+.price {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'PT Serif', serif;
+
+}
+.select {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sweat-1-features {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+
+.nav-flex-container-membership {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* submission form styling begins here */
+.submit-section {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #efc090;
+    color: #1a4a4d;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    
+}
+
+.submit-section .img-wrapper {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.submit-section .img-wrapper img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* Styling of the main form container box */
+.submit-section .main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+/* centering my form box in the middle */
+.submit-section .form-box {
+    width: 75%;
+}
+.submit-section .main-box .form-box h1 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.6em;
+    color: #477e82;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 1px solid #68065b;
+}
+/* spacing between each box */
+.submit-section .main-box .form-box .input-box {
+    margin-bottom: 15px;
+}
+
+.submit-section input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #68065b;
+    border-radius: 2px;
+    padding-left: 5px;
+    font-size: 1em;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+}
+.submit-section .member-box {
+    border-radius: 0px;
+    display: inline-flex;
+    font-size: small;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.submit-section .input-box p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #1a4a4d;
+}
+.submit-section .membership-type {
+    font-family: 'verdana', sans-serif;
+    font-weight: 500;
+}
+.submit-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
